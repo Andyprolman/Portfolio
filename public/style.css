@@ -1,0 +1,74 @@
+body{
+    background-color: #222930;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #E9E9E9;
+    
+}
+
+.fade{
+    -webkit-animation: fadein 3s;
+    animation-fill-mode: forwards;
+}
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+a{
+    color:#222930;
+}
+
+#welcome{
+    text-align:center; 
+    padding-top:130px; 
+    font-size:50pt;
+    color: #E9E9E9;
+}
+
+.btn{
+    border-color: #E9E9E9;
+    margin-top: 15px;
+}
+
+#form{
+    padding-top: 70px;
+}
+
+textarea{
+    height: 114px;
+}
+
+#about{
+    margin-top: 140px;
+}
+
+#about-section{
+    width: 550;
+    text-align: justify;
+    font-size: 1.2em;
+}
+
+.svg{
+    max-width: 150px;
+    margin: auto;
+    text-align: center;
+    transform: translateY(-150px);
+    fill: #E9E9E9
+}
+
+#skills, .navbar{
+    text-align: center;
+}
+
+#projects{
+    margin-top: 75px;
+    margin-bottom: 50px;
+}
+
+.projDesc{
+    padding-top: 100px
+}
+
+.navbar{
+    margin-top: 15px;
+}
