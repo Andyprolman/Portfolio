@@ -53,7 +53,10 @@ textarea{
     margin: auto;
     text-align: center;
     transform: translateY(-150px);
-    fill: #E9E9E9
+    fill: #E9E9E9;
+    z-index: 0;
+    position: relative;
+    
 }
 
 #skills, .navbar{
@@ -71,4 +74,8 @@ textarea{
 
 .navbar{
     margin-top: 15px;
+}
+#links{
+    color: white;
+    margin-right: 200px;
 }
