@@ -2,7 +2,6 @@ body{
     background-color: #222930;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #E9E9E9;
-    
 }
 
 .fade{
@@ -43,7 +42,6 @@ textarea{
 }
 
 #about-section{
-    width: 550;
     text-align: justify;
     font-size: 1.2em;
 }
@@ -69,11 +67,13 @@ textarea{
 }
 
 .projDesc{
-    padding-top: 100px
+    padding-top: 10%;
 }
 
 .navbar{
     margin-top: 15px;
+    margin-right: 0px;
+    padding-right: 0px;
 }
 #links{
     color: white;
@@ -82,4 +82,7 @@ textarea{
 
 .col-sm-1{
     margin-right: 20px
+}
+.project{
+    padding-bottom: 10%
 }
