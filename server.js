@@ -39,7 +39,6 @@ app.get('/projects', (req, res) => {
 });
 
 app.post('/thanks', (req, res) => {
-    console.log(req.body)
     const sgMail = require('@sendgrid/mail');
     sgMail.setApiKey(process.env.SENDGRID_API_KEY);
     const msg = {
